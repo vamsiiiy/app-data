@@ -1,0 +1,69 @@
+<div class="container-fluid">
+
+    <div class="row"> 
+        Select Floor
+    </div>
+
+    
+    
+ 
+
+
+        <div class="btn-group" data-toggle="buttons">
+                <label class="btn btn-light ">
+                  <input type="checkbox" value="1" (change)="SelectFloor($event)"> 1F
+                </label>
+
+                <label class="btn btn-light ml-3">
+                  <input type="checkbox" value="2" (change)="SelectFloor($event)"> 2F
+                </label>
+                <label class="btn btn-light ml-3">
+                  <input type="checkbox" value="3" (change)="SelectFloor($event)"> 3F
+                </label>
+                <label class="btn btn-light ml-3">
+                  <input type="checkbox" value="4" (change)="SelectFloor($event)"> 4F
+                </label>
+                <label class="btn btn-light ml-3">
+                  <input type="checkbox" value="5" (change)="SelectFloor($event)"> 5F
+                </label>
+
+                
+        </div>
+
+        <div class="row"> 
+            Select rooms
+    </div>
+
+           <div class="btn-group" data-toggle="buttons">
+                <label class="btn btn-light ">
+                  <input type="checkbox" checked> 1
+                </label>
+
+                <label class="btn btn-light ml-3">
+                  <input type="checkbox"> 2
+                </label>
+                <label class="btn btn-light ml-3">
+                  <input type="checkbox"> 3
+                </label>
+                <label class="btn btn-light ml-3">
+                  <input type="checkbox"> 4
+                </label>
+                <label class="btn btn-light ml-3">
+                  <input type="checkbox"> 5
+                </label>
+
+                
+        </div>
+
+    <ag-grid-angular
+    style="width: 1000px; height:500px;"
+    class="ag-theme-alpine"
+    [rowData]="rowData"
+    (gridReady)="onGridReady($event)"
+    [columnDefs]="columnDefs">
+    
+    
+</ag-grid-angular>
+
+</div>
+

@@ -1,0 +1,76 @@
+{
+    "units": [
+        {
+            "id": 1,
+            "name": "Apartment 101",
+            "size": 80,
+            "price": 240000,
+            "rooms": 3,
+            "floor": 0
+        },
+        {
+            "id": 2,
+            "name": "Apartment 102",
+            "size": 66,
+            "price": 190000,
+            "rooms": 3,
+            "floor": 0
+        },
+        {
+            "id": 3,
+            "name": "Apartment 103",
+            "size": 50,
+            "price": 80000,
+            "rooms": 2,
+            "floor": 0
+        },
+        {
+            "id": 4,
+            "name": "Apartment 201",
+            "size": 110,
+            "price": 500000,
+            "rooms": 4,
+            "floor": 1
+        },
+        {
+            "id": 5,
+            "name": "Apartment 202",
+            "size": 72,
+            "price": 180000,
+            "rooms": 3,
+            "floor": 1
+        },
+        {
+            "id": 6,
+            "name": "Apartment 203",
+            "size": 60,
+            "price": 90000,
+            "rooms": 2,
+            "floor": 1
+        },
+        {
+            "id": 7,
+            "name": "Apartment 301",
+            "size": 140,
+            "price": 700000,
+            "rooms": 5,
+            "floor": 2
+        },
+        {
+            "id": 8,
+            "name": "Apartment 302",
+            "size": 72,
+            "price": 180000,
+            "rooms": 3,
+            "floor": 2
+        },
+        {
+            "id": 9,
+            "name": "Apartment 303",
+            "size": 70,
+            "price": 100000,
+            "rooms": 2,
+            "floor": 2
+        }
+    ]
+}
